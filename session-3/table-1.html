@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        table {
+            border: 1px solid black;
+            height: 600px;
+            width: 600px;
+            margin: auto;
+        }
+
+        tr#banner {
+            background-color: lightblue;
+            height: 100px;
+            color: lightcoral;
+        }
+
+        tr#content {
+            background-color: gainsboro;
+            height: 400px;
+        }
+
+        tr#content td#left {
+            width: 70%;
+            vertical-align: top;
+        }
+
+        tr#content td#right {
+            width: 30%;
+            vertical-align: top;
+            border-left: 1px solid black;
+        }
+
+        tr#footer {
+            background-color: darkslategray;
+            height: 100px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr id="banner">
+            <td colspan="2">
+                <h1>DSC UTM</h1>
+            </td>
+        </tr>
+        <tr id="content">
+            <td id="left">
+                <h2>Welcome to our DSC UTM</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum neque nobis laborum natus illum
+                    eveniet tenetur ut aperiam aspernatur excepturi.</p>
+            </td>
+            <td id="right">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>PHP</li>
+                </ul>
+            </td>
+        </tr>
+        <tr id="footer">
+            <td colspan="2">
+                <p>Copyright 2021@DSC UTM</p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

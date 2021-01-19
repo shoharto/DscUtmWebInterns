@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TABLE</title>
+
+    <style>
+        table,
+        td,
+        th {
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            border-bottom: 1px solid tomato;
+        }
+        /* tr:hover{
+            background-color: cyan;
+        } */
+
+        tr:nth-child(even)
+        {
+            background-color: #ddd;
+        }
+
+        th{
+            background-color: lightblue;
+            color: white;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Sharil</td>
+            <td>Sho</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Don</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Don</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Don</td>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Don</td>
+        </tr>
+    </table>
+</body>
+
+</html>
