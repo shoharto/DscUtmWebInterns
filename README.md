@@ -7,7 +7,7 @@ Students from all undergraduate or graduate programs with an interest in growing
 a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and
 their community.
 
-> ####Our Learning Sessions Topic:
+### Our Learning Sessions Topic:
 - Introduction to HTML
 - Introduction to CSS
 - Introduction to Sass -Introduction to Bootstrap Framework.
@@ -16,5 +16,5 @@ their community.
 - ECMAScript 2016 - ES6
 - Final Project
 
- Helping students bridge the gap between theory and practice
+ Helping students bridge the gap between theory and practice.
 
